@@ -23,7 +23,7 @@ The aim of this project was to create an IRC (Instant Relay Chat) using given te
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,tailwind,react,nodejs,express,mongodb&theme=light" />
+    <img src="https://skillicons.dev/icons?i=tailwind,react,nodejs,express,mongodb&theme=light" />
   </a>
 </p>
 
