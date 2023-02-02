@@ -1,27 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
-@import url('https://fonts.cdnfonts.com/css/open-sans');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/open-sans");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html, body, #root, .main-div, .maindiv-chat {
+html,
+body,
+#root,
+.main-div,
+.maindiv-chat {
   height: 100%;
   width: 100%;
 }
 
-
 #root {
-  background: rgb(174,238,230);
-  background: linear-gradient(90deg, rgba(174,238,230,0.7063200280112045) 0%, rgba(171,148,233,0.6334908963585435) 100%);
+  background: rgb(174, 238, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(174, 238, 230, 0.7063200280112045) 0%,
+    rgba(171, 148, 233, 0.6334908963585435) 100%
+  );
 }
 
 .box {
   box-shadow: 0 0.5em 1em -0.125em !important;
 }
 
-.button-home, .button-signup {
-  background: linear-gradient(90deg, rgba(174,238,230,0.7063200280112045) 0%, rgba(171,148,233,0.6334908963585435) 100%);
-
+.button-home,
+.button-signup {
+  background: linear-gradient(
+    90deg,
+    rgba(174, 238, 230, 0.7063200280112045) 0%,
+    rgba(171, 148, 233, 0.6334908963585435) 100%
+  );
 }
 
 * {
@@ -29,12 +40,11 @@ html, body, #root, .main-div, .maindiv-chat {
   margin: 0;
   padding: 0;
   /* color: white; */
-  font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 
 #notification {
-  display:none;
+  display: none;
 }
 
 .chat {
@@ -43,7 +53,6 @@ html, body, #root, .main-div, .maindiv-chat {
   display: flex;
   align-items: center;
 }
-
 
 .chat__sidebar:last-of-type {
   flex: 0.3;
@@ -72,7 +81,7 @@ html, body, #root, .main-div, .maindiv-chat {
   /* overflow-y: scroll; */
 }
 
-.message__div>* {
+.message__div > * {
   margin-bottom: 10px;
 }
 
@@ -81,10 +90,8 @@ html, body, #root, .main-div, .maindiv-chat {
   background-color: white;
 }
 
-
-
 .message__recipient {
-  background-color: #9DBEBB;
+  background-color: #9dbebb;
   width: 300px;
   padding: 10px;
   border-radius: 10px;
@@ -102,7 +109,7 @@ html, body, #root, .main-div, .maindiv-chat {
   color: white;
 }
 
-.message__chats>p {
+.message__chats > p {
   font-size: 13px;
 }
 
