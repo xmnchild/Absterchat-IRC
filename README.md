@@ -1,6 +1,8 @@
 
 # IRC – Absterchat
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/54dbef736ab84ec6982a983fdcea5945)](https://app.codacy.com/gh/xmnchild/Absterchat-IRC?utm_source=github.com&utm_medium=referral&utm_content=xmnchild/Absterchat-IRC&utm_campaign=Badge_Grade_Settings)
+
 The aim of this project was to create an IRC (Instant Relay Chat) using given technologies (MERN stack and socket.io).
 
 
